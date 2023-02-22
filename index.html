@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>myForm</title>
+</head>
+<body>
+    <form action="#">
+      <div class="main">
+        <div class="group">
+            <label> Повне ім'я</label>
+            <input  type="text" name="username">
+        </div>
+        <div class="group">
+            <label> Email</label>
+            <input type="email" name="email">
+        </div>
+        <div class="group">
+            <label> Пароль</label>
+            <input type="password" name="password">
+        </div>
+        <div class="group">
+            <label> Пароль ще раз</label>
+            <input type="password" name="password">
+        </div>
+        <div class="group">
+            <label> Стать</label>
+            <input checked type="radio" name="gender" value="0"> Чоловічий
+            <input type="radio" name="gender" value="1"> Жіночий
+        </div>
+        <div class="group">
+            <label> Вік</label>
+            <input type="number" name="age" min="16" >
+        </div>
+        <div class="group">
+            <label> Курс </label>
+               <select name="course" >
+                  <option value="Виберіть курс">=Виберіть курс=</option>
+                  <option value="Front-End">Front-End</option>
+                  <option value="Back-End">Back-End</option>
+                  <option value="Project Management">Project Management</option>
+                  <option value="QA Manual"> QA Manual</option>
+               </select>
+        </div>
+        <div class="group">        
+            <label > Повна адреса </label>
+              <textarea name="adress" id="" cols="21" rows="5" placeholder="Країна,регіон,місто/селище,вулиця"></textarea>
+        </div>
+        <div class="group">
+                <input type="checkbox" > Я погоджуюсь з обробкою персональних даних
+        </div>
+        <div class="group">
+            <input type="reset" value="Очистити форму">
+            <input type="submit" value="Зареєструватися">
+        </div>
+      </div>
+    </form>
+    
+</body>
+</html>

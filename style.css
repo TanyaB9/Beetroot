@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(246, 247, 221);
+    margin: 0%;
+}
+form{
+    margin: 30px auto;
+    background: rgb(223, 224, 224);
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+}
+.group{
+    text-align: right;
+    line-height: 40px;
+    font-size: medium;
+}
+
+label{
+   float: left;
+   padding-right: 10px;
+   font-size: larger;
+}
+.main{
+    float:left;
+}
+select{
+    margin-right: 30px;
+}
+
